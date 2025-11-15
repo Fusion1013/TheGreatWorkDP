@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:paper",
+        "B": "minecraft:orange_candle"
+    },
+    "result": {
+        "id": "minecraft:writable_book",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:book/letter_orange",
+            "minecraft:item_name": "Orange Letter"
+        }
+    },
+    "group": "letters"
+}

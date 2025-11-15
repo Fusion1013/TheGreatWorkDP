@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:paper",
+        "B": "minecraft:black_candle"
+    },
+    "result": {
+        "id": "minecraft:writable_book",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:book/letter_black",
+            "minecraft:item_name": "Black Letter"
+
+        }
+    },
+    "group": "letters"
+}
