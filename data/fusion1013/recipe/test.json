@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:dirt"
+  },
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:custom_data": {
+        "PublicBukkitValues": {
+            "cobaltcore:gold_coin": 1
+        }
+      }
+    }
+  }
+}

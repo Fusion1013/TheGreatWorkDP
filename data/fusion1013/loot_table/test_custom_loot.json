@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "thegreatwork:key/crystal",
+                "minecraft:lore": [
+                  "",
+                  { "extra": ["Mystic Item"], "text": "" },
+                  { "extra": [{ "italic": false, "underlined": false, "bold": false, "color": "dark_gray", "obfuscated": false, "strikethrough": false, "text": "The key is voiceless..." }], "text": "" },
+                  "",
+                  { "extra": [{ "italic": false, "underlined": false, "bold": false, "color": "blue", "obfuscated": false, "strikethrough": false, "text": "Unknown" }], "text": "" }
+                ],
+                "minecraft:custom_name": { "extra": ["Key"], "text": "" },
+                "minecraft:custom_data": {
+                  "PublicBukkitValues": {
+                    "cobaltcore:item_section.mystic": 1,
+                    "cobaltcore:gold_coin": 1,
+                    "cobaltcore:item_section.unknown": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
