@@ -42,6 +42,11 @@ execute as @e[tag=umbryss_display_marker] at @s positioned ~ ~1.7 ~ run cparticl
 execute as @a[scores={floating_sword_sneaking=1..}] at @s if entity @e[tag=sword_display_marker,distance=..4] run scoreboard players add @s floating_sword 1
 
 execute as @a[scores={floating_sword=2}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
+execute as @a[scores={floating_sword=22}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
+execute as @a[scores={floating_sword=42}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
+execute as @a[scores={floating_sword=62}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
+execute as @a[scores={floating_sword=82}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
+
 execute as @a[scores={floating_sword=2}] at @s if entity @e[tag=sword_display_marker,distance=..4] run title @a actionbar {"bold":true,"color":"gold","text":"Retrieving sword.."}
 
 execute as @a[scores={floating_sword_sneaking=..0}] run scoreboard players set @s floating_sword 0
