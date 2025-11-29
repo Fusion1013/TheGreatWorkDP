@@ -53,6 +53,8 @@ execute as @a[scores={floating_sword_sneaking=..0}] run scoreboard players set @
 execute as @a run scoreboard players set @s floating_sword_sneaking 0
 
 execute as @a[scores={floating_sword=1..}] at @s at @e[tag=sword_display,distance=..4] run particle end_rod ~ ~ ~ .2 .5 .2 0 1
+execute as @a[scores={floating_sword=1..}] at @s as @e[tag=sword_display,distance=..4] run data merge entity @s {Glowing:1b}
+execute as @a[scores={floating_sword=0}] at @s as @e[tag=sword_display,distance=..4] run data merge entity @s {Glowing:0b}
 execute as @a[scores={floating_sword=100..}] at @s as @e[tag=sword_display_marker,distance=..4] run function fusion1013:fusion/floating_sword/retrieve
 
 
