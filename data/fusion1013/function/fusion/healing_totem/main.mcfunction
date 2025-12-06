@@ -1,7 +1,7 @@
-execute as @a if entity @e[tag=healing_totem,distance=..4] run scoreboard players add @s healing_totem 1
-execute as @a unless entity @e[tag=healing_totem,distance=..4] run scoreboard players set @s healing_totem 0
+execute as @a at @s if entity @e[tag=healing_totem,distance=..4] run scoreboard players add @s healing_totem 1
+execute as @a at @s unless entity @e[tag=healing_totem,distance=..4] run scoreboard players set @s healing_totem 0
 
-execute at @e[tag=healing_totem] positioned ~ ~.8 ~ rotated 0 0 run cparticle display spiral minecraft:falling_spore_blossom 3 10 1 .001 .3
+execute at @e[tag=healing_totem] positioned ~ ~.3 ~ rotated 0 0 run cparticle display spiral minecraft:falling_spore_blossom 3 10 1 .001 .3
 
 ## Apply increasing healing
 execute as @a[scores={healing_totem=40}] at @s run effect give @s health_boost 300 0 true
