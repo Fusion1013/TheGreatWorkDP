@@ -13,3 +13,4 @@ function fusion1013:fusion/desert_temple/main
 function fusion1013:fusion/jungle_temple/main
 function fusion1013:fusion/floating_sword/main
 function fusion1013:fusion/spawner/main
+function fusion1013:fusion/teleporter/main

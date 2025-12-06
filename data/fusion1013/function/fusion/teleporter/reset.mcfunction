@@ -1,0 +1,3 @@
+scoreboard objectives add teleporter dummy
+scoreboard objectives add teleporter_sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add teleporter_id dummy

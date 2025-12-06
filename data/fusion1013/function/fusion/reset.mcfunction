@@ -13,3 +13,4 @@ function fusion1013:fusion/primordial_forge/reset
 function fusion1013:fusion/jungle_temple/reset
 function fusion1013:fusion/floating_sword/reset
 function fusion1013:fusion/spawner/reset
+function fusion1013:fusion/teleporter/reset
