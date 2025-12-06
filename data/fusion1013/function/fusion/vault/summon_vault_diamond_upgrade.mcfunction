@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["vault_diamond_upgrade"]}

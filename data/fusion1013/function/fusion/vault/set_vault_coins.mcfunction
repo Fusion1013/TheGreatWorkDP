@@ -1,0 +1,1 @@
+setblock ~ ~ ~ vault{config:{loot_table:"fusion1013:generic/vault/coins",key_item:{id:"minecraft:trial_key"}}} destroy

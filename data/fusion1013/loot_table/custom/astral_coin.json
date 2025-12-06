@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "thegreatwork:coin/bronzecoin",
+                "minecraft:custom_name": "Astral Coin",
+                "minecraft:custom_data": {
+                  "PublicBukkitValues": {
+                    "cobaltcore:astral_coin": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
