@@ -37,11 +37,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
-          "weight": 50,
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:poison"
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
             }
           ]
         }
