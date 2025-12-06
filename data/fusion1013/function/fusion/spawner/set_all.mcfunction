@@ -1,6 +1,5 @@
 execute at @e[type=marker,tag=overgrown_swordsman_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/overgrown_swordsman_spawner/set_overgrown_swordsman_spawner
 execute at @e[type=marker,tag=basic_skeleton_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_skeleton_spawner/set_basic_skeleton_spawner
-execute at @e[type=marker,tag=example_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/example_spawner/set_example_spawner
 execute at @e[type=marker,tag=basic_bogged_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_bogged_spawner/set_basic_bogged_spawner
 execute at @e[type=marker,tag=overgrown_archer_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/overgrown_archer_spawner/set_overgrown_archer_spawner
 execute at @e[type=marker,tag=angered_specter_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/angered_specter_spawner/set_angered_specter_spawner
@@ -8,7 +7,6 @@ execute at @e[type=marker,tag=mercenary_swordsman_spawner,tag=trial_spawner] run
 execute at @e[type=marker,tag=basic_drowned_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_drowned_spawner/set_basic_drowned_spawner
 execute at @e[type=marker,tag=basic_spider_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_spider_spawner/set_basic_spider_spawner
 execute at @e[type=marker,tag=drenched_guard_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/drenched_guard_spawner/set_drenched_guard_spawner
-execute at @e[type=marker,tag=lost_soldier_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/lost_soldier_spawner/set_lost_soldier_spawner
 execute at @e[type=marker,tag=angered_phantom_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/angered_phantom_spawner/set_angered_phantom_spawner
 execute at @e[type=marker,tag=basic_parched_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_parched_spawner/set_basic_parched_spawner
 execute at @e[type=marker,tag=mercenary_archer_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/mercenary_archer_spawner/set_mercenary_archer_spawner
