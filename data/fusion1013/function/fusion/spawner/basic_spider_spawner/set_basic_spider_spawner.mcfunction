@@ -1,0 +1,1 @@
+setblock ~ ~ ~ trial_spawner{normal_config:{ticks_between_spawns:10,spawn_potentials:[{data:{entity:{id:"minecraft:spider"}},weight:1}],loot_tables_to_eject:[{data:"fusion1013:generic/reward",weight:1}],simultaneous_mobs:2,simultaneous_mobs_added_per_player:1,spawn_range:3,total_mobs_added_per_player:2,total_mobs:6}} destroy

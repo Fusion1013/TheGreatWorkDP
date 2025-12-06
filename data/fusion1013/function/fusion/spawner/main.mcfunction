@@ -1,0 +1,1 @@
+execute if score debug spawner matches 1 at @e[tag=trial_spawner] run particle end_rod ~ ~ ~ .5 .5 .5 0 1 force
