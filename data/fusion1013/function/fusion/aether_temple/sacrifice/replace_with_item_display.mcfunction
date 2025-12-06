@@ -1,0 +1,5 @@
+execute if entity @s[type=item,distance=..5,nbt={Item:{id:"minecraft:iron_block"}}] run summon item_display ~ ~ ~ {Glowing:1b,start_interpolation:-1,Tags:["ae_tp_item"],item:{id:"minecraft:iron_block",count:1},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[.25f,.25f,.25f]}}
+execute if entity @s[type=item,distance=..5,nbt={Item:{id:"minecraft:copper_block"}}] run summon item_display ~ ~ ~ {Glowing:1b,start_interpolation:-1,Tags:["ae_tp_item"],item:{id:"minecraft:copper_block",count:1},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[.25f,.25f,.25f]}}
+execute if entity @s[type=item,distance=..5,nbt={Item:{id:"minecraft:gold_block"}}] run summon item_display ~ ~ ~ {Glowing:1b,start_interpolation:-1,Tags:["ae_tp_item"],item:{id:"minecraft:gold_block",count:1},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[.25f,.25f,.25f]}}
+
+kill @s

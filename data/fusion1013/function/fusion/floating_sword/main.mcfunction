@@ -5,6 +5,8 @@
  # Created by .
 ##
 
+function fusion1013:fusion/floating_sword/lock/main
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"cobaltcore:auranthys":1}}}}}] run scoreboard players add @s floating_sword 1
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"cobaltcore:cindralis":1}}}}}] run scoreboard players add @s floating_sword 1
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"cobaltcore:serenith":1}}}}}] run scoreboard players add @s floating_sword 1
@@ -47,7 +49,7 @@ execute as @a[scores={floating_sword=42}] at @s if entity @e[tag=sword_display_m
 execute as @a[scores={floating_sword=62}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
 execute as @a[scores={floating_sword=82}] at @s if entity @e[tag=sword_display_marker,distance=..4] run playsound minecraft:block.note_block.pling master @s
 
-execute as @a[scores={floating_sword=2}] at @s if entity @e[tag=sword_display_marker,distance=..4] run title @a actionbar {"bold":true,"color":"gold","text":"Retrieving sword.."}
+execute as @a[scores={floating_sword=2}] at @s if entity @e[tag=sword_display_marker,distance=..4] run title @s actionbar {"bold":true,"color":"gold","text":"Retrieving sword.."}
 
 execute as @a[scores={floating_sword_sneaking=..0}] run scoreboard players set @s floating_sword 0
 execute as @a run scoreboard players set @s floating_sword_sneaking 0

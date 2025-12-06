@@ -18,5 +18,5 @@ execute if entity @s[tag=cindralis_display_marker] run title @a actionbar {"bold
 execute if entity @s[tag=serenith_display_marker] run title @a actionbar {"bold":true,"color":"gold","text":"Someone has claimed the Legendary Serenith.."}
 execute if entity @s[tag=umbryss_display_marker] run title @a actionbar {"bold":true,"color":"gold","text":"Someone has claimed the Legendary Umbryss.."}
 
-kill @e[tag=sword_display,distance=..3]
+kill @e[tag=sword_display,distance=..4]
 kill @s
