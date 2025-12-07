@@ -1,5 +1,9 @@
 execute as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run cparticle display sphere minecraft:end_rod .5 10
+execute as @e[tag=fc_blade_mold] at @s rotated 0 0 run cparticle display spiral minecraft:end_rod 5 10 2 .001 1
 # execute as @e[tag=fc_marker] at @s run particle end_rod ~ ~ ~ 0 0 0 .1 1
+
+execute if score craft_timer forge matches 10 as @e[tag=fc_blade_mold] at @s run playsound thegreatwork:sfx.ominous_woosh.1 player @a ~ ~ ~
+execute if score craft_timer forge matches 10 as @e[tag=fc_blade_mold] at @s run playsound thegreatwork:sfx.seal.1 player @a ~ ~ ~
 
 
 ## Consume items effects
