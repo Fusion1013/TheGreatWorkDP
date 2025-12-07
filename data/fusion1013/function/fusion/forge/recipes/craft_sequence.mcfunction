@@ -2,12 +2,31 @@ execute as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run cparticle display s
 execute as @e[tag=fc_marker] at @s run particle end_rod ~ ~ ~ 0 0 0 .1 1
 
 
+## Consume items effects
+execute if score craft_timer forge matches 10 as @e[tag=fc_blade_mold] at @s run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
+execute if score craft_timer forge matches 10 as @e[tag=fc_material] at @s run particle end_rod ~ ~ ~ 0 0 0 1 5
+execute if score craft_timer forge matches 10 as @e[tag=fc_material] at @s as @e[type=item,distance=..1] run kill @s
+
+execute if score craft_timer forge matches 54 as @e[tag=fc_blade_mold] at @s run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
+execute if score craft_timer forge matches 54 as @e[tag=fc_dust] at @s run particle end_rod ~ ~ ~ 0 0 0 1 5
+execute if score craft_timer forge matches 54 as @e[tag=fc_dust] at @s as @e[type=item,distance=..1] run kill @s
+
+execute if score craft_timer forge matches 74 as @e[tag=fc_blade_mold] at @s run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
+execute if score craft_timer forge matches 74 as @e[tag=fc_blade_mold] at @s run particle end_rod ~ ~ ~ 0 0 0 1 5
+execute if score craft_timer forge matches 74 as @e[tag=fc_blade_mold] at @s as @e[type=item,distance=..1] run kill @s
+
+
 ## Middle flashes
-execute if score craft_timer forge matches 10 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
-execute if score craft_timer forge matches 30 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 20 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 20 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~
+execute if score craft_timer forge matches 41 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 41 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~
 execute if score craft_timer forge matches 64 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 64 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~
 execute if score craft_timer forge matches 72 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 72 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~
 execute if score craft_timer forge matches 84 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 84 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~
 
 ## Finish effects
 execute if score craft_timer forge matches 99 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 1 20
