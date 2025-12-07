@@ -1,0 +1,1 @@
+execute unless entity @e[tag=fc_diamond_sword,scores={forge=0}] run msg Fusion1013 test

@@ -1,2 +1,2 @@
 execute as @e[tag=forge_cursor] at @s run particle minecraft:block_crumble{block_state:"minecraft:stone"} ~ ~1 ~ .3 0 .3 0 10
-execute as @e[tag=forge_cursor] at @s run playsound block.grindstone.use block @a ~ ~ ~
+execute as @e[tag=forge_cursor] at @s run playsound block.grindstone.use block @a ~ ~ ~ 2
