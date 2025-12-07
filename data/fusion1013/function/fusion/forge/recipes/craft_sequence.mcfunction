@@ -1,10 +1,23 @@
 execute as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run cparticle display sphere minecraft:end_rod .5 10
 execute as @e[tag=fc_marker] at @s run particle end_rod ~ ~ ~ 0 0 0 .1 1
 
+
+## Middle flashes
+execute if score craft_timer forge matches 10 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 30 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 64 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 72 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 84 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+
+## Finish effects
+execute if score craft_timer forge matches 99 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 1 20
+execute if score craft_timer forge matches 99 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound block.anvil.use player @a ~ ~ ~ 2
+
+## Summon diamond sword
 execute if score craft_timer forge matches 99 if score diamond_sword forge matches 1 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_sword",count:1}}
 execute if score craft_timer forge matches 99 as @e[tag=fc_marker] at @s as @e[type=item,distance=..1] run kill @s
 
-# Reset all scores
+## Reset all scores
 execute if score craft_timer forge matches 99 run scoreboard players set diamond_sword forge 0
 
 scoreboard players add craft_timer forge 1
