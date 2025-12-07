@@ -1,2 +1,2 @@
-execute unless entity @e[tag=fcr_diamond_sword,scores={forge=0}] unless score diamond_sword forge matches 1 run scoreboard players set diamond_sword forge 1
 execute unless entity @e[tag=fcr_diamond_sword,scores={forge=0}] unless score diamond_sword forge matches 1 run function fusion1013:fusion/forge/recipes/start_craft_sequence
+execute unless entity @e[tag=fcr_diamond_sword,scores={forge=0}] unless score diamond_sword forge matches 1 run scoreboard players set diamond_sword forge 1
