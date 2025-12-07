@@ -15,3 +15,4 @@ function fusion1013:fusion/floating_sword/reset
 function fusion1013:fusion/spawner/reset
 function fusion1013:fusion/teleporter/reset
 function fusion1013:fusion/healing_totem/reset
+function fusion1013:fusion/forge/reset
