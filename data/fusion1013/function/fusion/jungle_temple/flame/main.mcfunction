@@ -2,7 +2,7 @@ execute as @e[tag=jt_flame_pickup] at @s run function fusion1013:fusion/jungle_t
 
 
 ## Particles at player holding flame
-execute as @a unless score @s jungle_flame matches ..0 at @s run particle soul_fire_flame ~ ~1 ~ .3 .5 .3 0 1
+execute as @a if score @s jungle_flame matches 1.. at @s run particle soul_fire_flame ~ ~1 ~ .3 .5 .3 0 1
 
 ## Update fail check
 execute as @a if score @s jungle_flame_damage matches 1.. run scoreboard players set @s jungle_flame_interrupted 1
