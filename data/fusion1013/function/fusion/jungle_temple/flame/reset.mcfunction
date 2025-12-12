@@ -1,1 +1,6 @@
 scoreboard objectives add jungle_flame dummy
+scoreboard objectives add jungle_flame_id dummy
+
+scoreboard objectives add jungle_flame_interrupted dummy
+scoreboard objectives add jungle_flame_damage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add jungle_flame_sprint minecraft.custom:minecraft.sprint_one_cm

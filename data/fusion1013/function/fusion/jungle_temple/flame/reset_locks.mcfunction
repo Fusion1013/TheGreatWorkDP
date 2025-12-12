@@ -1,0 +1,1 @@
+scoreboard players set @e[tag=jt_flame_deposit] jungle_flame 0
