@@ -1,0 +1,2 @@
+execute as @e[tag=forge_cursor] at @s run playsound block.vault.close_shutter block @a ~ ~1 ~
+execute as @e[tag=forge_cursor] at @s run particle block{block_state:"minecraft:deepslate"} ~ ~ ~ .6 .6 .6 0 10
