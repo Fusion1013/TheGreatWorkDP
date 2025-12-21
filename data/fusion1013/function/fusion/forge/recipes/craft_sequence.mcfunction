@@ -38,8 +38,14 @@ execute if score craft_timer forge matches 175 as @e[tag=fc_blade_mold] at @s po
 execute if score craft_timer forge matches 199 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 1 20
 execute if score craft_timer forge matches 199 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_mirror player @a ~ ~ ~ 2
 
-## Summon diamond sword
+## Summon item
 execute if score craft_timer forge matches 199 if score diamond_sword forge matches 1 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_sword",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_battleaxe forge matches 1 as @e[tag=fc_battleaxe_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_axe",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_helmet forge matches 1 as @e[tag=fc_helmet_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_helmet",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_chestplate forge matches 1 as @e[tag=fc_chestplate_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_chestplate",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_leggings forge matches 1 as @e[tag=fc_leggings_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_leggings",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_boots forge matches 1 as @e[tag=fc_boots_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_boots",count:1}}
+
 execute if score craft_timer forge matches 199 as @e[tag=fc_marker] at @s as @e[type=item,distance=..1] run kill @s
 
 ## Reset all scores
