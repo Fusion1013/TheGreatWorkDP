@@ -44,6 +44,12 @@ execute if score craft_timer forge matches 199 as @e[tag=fc_marker] at @s as @e[
 
 ## Reset all scores
 execute if score craft_timer forge matches 199 run scoreboard players set diamond_sword forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_spear forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_battleaxe forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_helmet forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_chestplate forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_leggings forge 0
+execute if score craft_timer forge matches 199 run scoreboard players set diamond_boots forge 0
 
 scoreboard players add craft_timer forge 1
 execute if score craft_timer forge matches ..200 run schedule function fusion1013:fusion/forge/recipes/craft_sequence 1
