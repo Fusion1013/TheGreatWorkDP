@@ -18,5 +18,5 @@ function fusion1013:fusion/healing_totem/main
 function fusion1013:fusion/forge/main
 
 execute as @e[scores={debug=1..}] run scoreboard players remove @s debug 1
-execute as @e[scores={debug=10..}] at @s unless entity @e[tag=debug_display,distance=..1] run summon block_display ~ ~ ~ {Glowing:1b,Tags:["debug_display"],block_state:{Name:"minecraft:command_block"}}
+execute as @e[scores={debug=10..}] at @s unless entity @e[tag=debug_display,distance=..1] run summon block_display ~ ~ ~ {Glowing:1b,Tags:["debug_display"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-.5f,-.5f,-.5f],scale:[.5f,.5f,.5f]},block_state:{Name:"minecraft:command_block"}}
 execute as @e[scores={debug=1}] at @s run kill @e[tag=debug_display,distance=..1]
