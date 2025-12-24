@@ -16,3 +16,4 @@ execute if score @s item_sacrifice matches 40 run scoreboard players set @e[type
 execute if score @s item_sacrifice matches 40 run summon lightning_bolt
 execute if score @s item_sacrifice matches 40 if entity @s[type=item] run kill @s
 execute if score @s item_sacrifice matches 40 run setblock ~ ~-4 ~ redstone_block
+execute if score @s item_sacrifice matches 40 as @e[tag=item_sacrifice,distance=..1] run scoreboard players set @s item_sacrifice 1
