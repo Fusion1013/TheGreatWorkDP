@@ -1,0 +1,1 @@
+scoreboard players reset @e[tag=item_sacrifice,distance=..3] item_sacrifice
