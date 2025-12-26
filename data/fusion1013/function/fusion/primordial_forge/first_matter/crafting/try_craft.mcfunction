@@ -1,1 +1,1 @@
-execute if entity @e[tag=pforge_pedestal] unless entity @e[tag=pforge_pedestal,scores={item_detector=0}] unless score running primordial_forge matches 1 run function fusion1013:fusion/primordial_forge/first_matter/crafting/craft_sequence
+execute if entity @e[tag=pforge_pedestal] unless entity @e[tag=pforge_pedestal,scores={item_detector=0}] unless score craft_timer primordial_forge matches 1.. run function fusion1013:fusion/primordial_forge/first_matter/crafting/craft_sequence
