@@ -1,5 +1,5 @@
 execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_east] at @s run particle end_rod ~ ~ ~ 0 0 0 1 100 force
-execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_south] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
+execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_east] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
 execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_east] at @s run kill @e[type=item,distance=..1]
 
 
@@ -9,16 +9,17 @@ execute if score craft_timer primordial_forge matches 80 as @e[tag=pforge_south]
 
 
 execute if score craft_timer primordial_forge matches 120 as @e[tag=pforge_west] at @s run particle end_rod ~ ~ ~ 0 0 0 1 100 force
-execute if score craft_timer primordial_forge matches 120 as @e[tag=pforge_south] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
+execute if score craft_timer primordial_forge matches 120 as @e[tag=pforge_west] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
 execute if score craft_timer primordial_forge matches 120 as @e[tag=pforge_west] at @s run kill @e[type=item,distance=..1]
 
 
 execute if score craft_timer primordial_forge matches 160 as @e[tag=pforge_north] at @s run particle end_rod ~ ~ ~ 0 0 0 1 100 force
-execute if score craft_timer primordial_forge matches 160 as @e[tag=pforge_south] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
+execute if score craft_timer primordial_forge matches 160 as @e[tag=pforge_north] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
 execute if score craft_timer primordial_forge matches 160 as @e[tag=pforge_north] at @s run kill @e[type=item,distance=..1]
 
 
 execute if score craft_timer primordial_forge matches 200 as @e[tag=pforge_north] at @s run summon item ~ ~ ~ {Paper.SpawnReason: "DEFAULT", Bukkit.updateLevel: 2, Item: {id: "minecraft:clock", count: 1, components: {"minecraft:item_model": "thegreatwork:first_matter", "minecraft:lore": ["", {extra: [{italic: 0b, underlined: 0b, bold: 0b, color: "light_purple", obfuscated: 0b, strikethrough: 0b, text: "Mystic Item"}], text: ""}, {extra: [{italic: 0b, text: "Infinite possibilities pulse within...", color: "dark_gray"}], text: ""}, "", {extra: [{italic: 0b, underlined: 0b, bold: 0b, color: "blue", obfuscated: 0b, strikethrough: 0b, text: "Unknown"}], text: ""}], "minecraft:custom_name": {extra: [{italic: 0b, underlined: 0b, bold: 0b, color: "#969696", obfuscated: 0b, strikethrough: 0b, text: "F"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#8B8B8B", obfuscated: 0b, strikethrough: 0b, text: "i"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#818181", obfuscated: 0b, strikethrough: 0b, text: "r"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#777777", obfuscated: 0b, strikethrough: 0b, text: "s"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#6C6C6C", obfuscated: 0b, strikethrough: 0b, text: "t"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#626262", obfuscated: 0b, strikethrough: 0b, text: " "}, {italic: 0b, underlined: 0b, bold: 0b, color: "#585858", obfuscated: 0b, strikethrough: 0b, text: "M"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#4D4D4D", obfuscated: 0b, strikethrough: 0b, text: "a"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#434343", obfuscated: 0b, strikethrough: 0b, text: "t"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#393939", obfuscated: 0b, strikethrough: 0b, text: "t"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#2E2E2E", obfuscated: 0b, strikethrough: 0b, text: "e"}, {italic: 0b, underlined: 0b, bold: 0b, color: "#242424", obfuscated: 0b, strikethrough: 0b, text: "r"}], text: ""}, "minecraft:custom_data": {PublicBukkitValues: {"cobaltcore:item_section.mystic": 1b, "cobaltcore:first_matter": 1, "cobaltcore:item_section.unknown": 1b}}, "minecraft:damage": 0}}, OnGround: 1b, Air: 300s, UUID: [I; 402133161, 1412776388, -1595652188, 817482283], Invulnerable: 0b, Spigot.ticksLived: 405, Paper.Origin: [271.46028578428223d, -54.68000000715256d, 80.84268978307479d], Thrower: [I; -1703487937, 2106543804, -2136358312, 605139521], Age: 405s, WorldUUIDLeast: -4750284075429301756L, Motion: [1.1437810675568944E-27d, -0.04d, 7.475776522312138E-26d], Paper.OriginWorld: [I; -1725651085, 1723417036, -1106011699, 769094148], PickupDelay: 0s, Rotation: [29.69495f, 0.0f], Health: 5s, Fire: 0s, Pos: [271.4922904953631d, -56.0d, 82.93452426510834d], WorldUUIDMost: -7411614972658499124L, fall_distance: 0.0d, PortalCooldown: 0, Paper.FireOverride: "NOT_SET"}
+execute if score craft_timer primordial_forge matches 160 as @e[tag=pforge_north] at @s run playsound minecraft:entity.illusioner.cast_spell block @a
 
 
 
