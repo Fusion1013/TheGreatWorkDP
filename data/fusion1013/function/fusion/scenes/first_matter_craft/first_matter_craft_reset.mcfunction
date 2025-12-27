@@ -1,0 +1,1 @@
+scoreboard objectives add first_matter_craft dummy
