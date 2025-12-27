@@ -38,7 +38,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
+          "name": "minecraft:blaze_powder",
           "weight": 30,
           "functions": [
             {
