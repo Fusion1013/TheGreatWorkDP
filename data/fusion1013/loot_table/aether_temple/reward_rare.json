@@ -12,12 +12,6 @@
             {
               "function": "minecraft:set_count",
               "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "thegreatwork:key/hallowed"
-              }
             }
           ]
         },

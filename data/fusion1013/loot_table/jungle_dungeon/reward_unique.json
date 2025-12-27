@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "fusion1013:custom/sol_coin",
-          "weight": 50,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -22,13 +22,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
-          "weight": 50,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_potion",
               "id": "minecraft:oozing"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 20
         }
       ]
     }
