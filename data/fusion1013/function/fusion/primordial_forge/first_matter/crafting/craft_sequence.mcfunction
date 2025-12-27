@@ -1,4 +1,4 @@
-execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_pedestal] at @s run particle end_rod ~ ~ ~ 0 0 0 1 100 force
+execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_pedestal] at @s run particle end_rod ~ ~ ~ 0 0 0 .4 100 force
 execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_pedestal] at @s run playsound minecraft:entity.illusioner.prepare_blindness block @a
 execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_pedestal] at @s run kill @e[type=item,distance=..1]
 execute if score craft_timer primordial_forge matches 40 as @e[tag=pforge_pedestal] at @s run function fusion1013:fusion/scenes/first_matter_craft/first_matter_craft_run
