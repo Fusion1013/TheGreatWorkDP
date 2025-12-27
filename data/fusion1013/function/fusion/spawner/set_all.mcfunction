@@ -9,6 +9,7 @@ execute at @e[type=marker,tag=basic_spider_spawner,tag=trial_spawner] run functi
 execute at @e[type=marker,tag=drenched_guard_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/drenched_guard_spawner/set_drenched_guard_spawner
 execute at @e[type=marker,tag=angered_phantom_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/angered_phantom_spawner/set_angered_phantom_spawner
 execute at @e[type=marker,tag=basic_parched_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_parched_spawner/set_basic_parched_spawner
+execute at @e[type=marker,tag=flaming_swordsman_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/flaming_swordsman_spawner/set_flaming_swordsman_spawner
 execute at @e[type=marker,tag=mercenary_archer_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/mercenary_archer_spawner/set_mercenary_archer_spawner
 execute at @e[type=marker,tag=basic_zombie_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/basic_zombie_spawner/set_basic_zombie_spawner
 execute at @e[type=marker,tag=angered_wraith_spawner,tag=trial_spawner] run function fusion1013:fusion/spawner/angered_wraith_spawner/set_angered_wraith_spawner
