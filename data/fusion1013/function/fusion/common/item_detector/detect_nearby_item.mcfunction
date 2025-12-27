@@ -3,7 +3,7 @@ execute if entity @e[type=item,distance=..0.75] run data modify storage temp:ite
 execute if entity @e[type=item,distance=..0.75] run data modify block ~ ~-2 ~ Items[0] set from storage temp:item_detector item
 
 ## Play insert sound
-execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all unless score @s item_detector matches 1 if entity @e[type=item,distance=..0.75] run playsound block.trial_spawner.spawn_item block @a ~ ~ ~
+execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all unless score @s item_detector matches 1 if entity @e[type=item,distance=..0.75] run playsound block.vault.activate block @a ~ ~ ~
 
 ## Update detector score
 execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all run scoreboard players set @s item_detector 1
