@@ -15,4 +15,4 @@ execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all as @e[type=item,limit=1,sort=neare
 
 ## Set item position to detector middle
 execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all as @e[type=item,limit=1,sort=nearest,distance=..0.75] run tp @s ~ ~ ~
-execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all as @e[type=item,limit=1,sort=nearest,distance=..0.75] run data merge entity @s {Motion:[0.0,0.0,0.0],NoGravity:1b}
+execute if blocks ~ ~-2 ~ ~ ~-2 ~ ~ ~-3 ~ all as @e[type=item,limit=1,sort=nearest,distance=..0.75] run data merge entity @s {Motion:[0.0,0.0,0.0],NoGravity:1b,Glowing:1b}
