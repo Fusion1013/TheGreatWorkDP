@@ -18,5 +18,6 @@ function fusion1013:fusion/forge/reset
 function fusion1013:fusion/common/reset
 
 function fusion1013:fusion/scenes/first_matter_craft/first_matter_craft_reset
+function fusion1013:fusion/scenes/pf_black_hole/pf_black_hole_reset
 
 scoreboard objectives add debug dummy

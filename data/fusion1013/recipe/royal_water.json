@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a#a",
+        "#B#",
+        "a#a"
+    ],
+    "key": {
+        "a": "minecraft:air",
+        "#": "minecraft:ghast_tear",
+        "B": "minecraft:potion"
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:potion/royal_water",
+            "minecraft:item_name": "Royal Water",
+            "minecraft:custom_data": {
+                "PublicBukkitValues": {
+                    "cobaltcore:royal_water": 1
+                }
+            }
+        }
+    },
+    "group": "pforge"
+}

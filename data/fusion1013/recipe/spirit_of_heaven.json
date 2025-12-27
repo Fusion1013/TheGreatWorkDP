@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a#a",
+        "#B#",
+        "aca"
+    ],
+    "key": {
+        "a": "minecraft:air",
+        "#": "minecraft:amethyst_shard",
+        "B": "minecraft:nether_star",
+        "c": "minecraft:potion"
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:potion/spirit_of_heaven",
+            "minecraft:item_name": "Spirit of Heaven",
+            "minecraft:custom_data": {
+                "PublicBukkitValues": {
+                    "cobaltcore:spirit_of_heaven": 1
+                }
+            }
+        }
+    },
+    "group": "pforge"
+}

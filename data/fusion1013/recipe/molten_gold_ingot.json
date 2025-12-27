@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a#a",
+        "#a#",
+        "a#a"
+    ],
+    "key": {
+        "a": "minecraft:blaze_powder",
+        "#": "minecraft:gold_ingot"
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:ingot/molten_gold_ingot",
+            "minecraft:item_name": "Molten Gold Ingot",
+            "minecraft:custom_data": {
+                "PublicBukkitValues": {
+                    "cobaltcore:molten_gold_ingot": 1
+                }
+            }
+        }
+    },
+    "group": "pforge"
+}

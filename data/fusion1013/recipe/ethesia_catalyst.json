@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a#a",
+        "#B#",
+        "a#a"
+    ],
+    "key": {
+        "a": "minecraft:air",
+        "#": "minecraft:iron_block",
+        "B": "minecraft:end_crystal"
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:material/ethesia_catalyst",
+            "minecraft:item_name": "Ethesia Catalyst",
+            "minecraft:custom_data": {
+                "PublicBukkitValues": {
+                    "cobaltcore:ethesia_catalyst": 1
+                }
+            }
+        }
+    },
+    "group": "pforge"
+}
