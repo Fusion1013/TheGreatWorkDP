@@ -1,8 +1,8 @@
-particle soul_fire_flame ~19.20228 ~29.73971 ~19.80227 0.1 0.1 0.1 0 2 force
-particle soul_fire_flame ~22.79772 ~29.73971 ~22.19773 0.1 0.1 0.1 0 2 force
-particle soul_fire_flame ~22.19774 ~29.73971 ~19.20228 0.1 0.1 0.1 0 2 force
-particle soul_fire_flame ~19.80226 ~29.73971 ~22.79772 0.1 0.1 0.1 0 2 force
-particle end_rod ~19.80226 ~29.73971 ~22.79772 0.2 0.2 0.2 0 10 force
-particle end_rod ~19.20228 ~29.73971 ~19.80227 0.2 0.2 0.2 0 10 force
-particle end_rod ~22.19774 ~29.73971 ~19.20228 0.2 0.2 0.2 0 10 force
-particle end_rod ~22.79772 ~29.73971 ~22.19773 0.2 0.2 0.2 0 10 force
+particle soul_fire_flame ~19.1935 ~29.74435 ~19.82076 0.1 0.1 0.1 0 2 force
+particle soul_fire_flame ~22.8065 ~29.74435 ~22.17924 0.1 0.1 0.1 0 2 force
+particle soul_fire_flame ~22.17924 ~29.74435 ~19.1935 0.1 0.1 0.1 0 2 force
+particle soul_fire_flame ~19.82076 ~29.74435 ~22.8065 0.1 0.1 0.1 0 2 force
+particle end_rod ~19.82076 ~29.74435 ~22.8065 0.2 0.2 0.2 0 10 force
+particle end_rod ~19.1935 ~29.74435 ~19.82076 0.2 0.2 0.2 0 10 force
+particle end_rod ~22.17924 ~29.74435 ~19.1935 0.2 0.2 0.2 0 10 force
+particle end_rod ~22.8065 ~29.74435 ~22.17924 0.2 0.2 0.2 0 10 force
