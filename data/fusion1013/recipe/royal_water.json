@@ -1,12 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "a#a",
+        " # ",
         "#B#",
-        "a#a"
+        " # "
     ],
     "key": {
-        "a": "minecraft:air",
         "#": "minecraft:ghast_tear",
         "B": "minecraft:potion"
     },

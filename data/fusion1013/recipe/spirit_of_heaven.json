@@ -1,12 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "a#a",
+        " # ",
         "#B#",
-        "aca"
+        " c "
     ],
     "key": {
-        "a": "minecraft:air",
         "#": "minecraft:amethyst_shard",
         "B": "minecraft:nether_star",
         "c": "minecraft:potion"

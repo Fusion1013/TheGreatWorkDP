@@ -1,12 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "a#a",
+        " # ",
         "#B#",
-        "a#a"
+        " # "
     ],
     "key": {
-        "a": "minecraft:air",
         "#": "minecraft:iron_block",
         "B": "minecraft:end_crystal"
     },
