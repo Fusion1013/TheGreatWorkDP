@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:gold_tool_materials"
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "5655cb7b-c73b-4f9d-a6b8-27af71074b06",
+          "amount": 7,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": " 7 Attack Damage",
+              "color": "dark_green",
+              "italic": false
+            }
+          }
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "e39cbb3e-365e-443e-aa55-ed0d3823b1ad",
+          "amount": -3.2,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": " 0.8 Attack Speed",
+              "color": "dark_green",
+              "italic": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -40,7 +40,7 @@ execute if score craft_timer forge matches 199 as @e[tag=fc_blade_mold] at @s po
 
 ## Summon item
 execute if score craft_timer forge matches 199 if score diamond_sword forge matches 1 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_sword",count:1}}
-execute if score craft_timer forge matches 199 if score diamond_battleaxe forge matches 1 as @e[tag=fc_battleaxe_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_axe",count:1}}
+execute if score craft_timer forge matches 199 if score diamond_battleaxe forge matches 1 as @e[tag=fc_battleaxe_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_axe",count:1,components:{"minecraft:item_model":"thegreatwork:axe/diamond_battleaxe","minecraft:custom_name":{"italic":false,"text":"Diamond Battleaxe"}}}}
 execute if score craft_timer forge matches 199 if score diamond_helmet forge matches 1 as @e[tag=fc_helmet_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_helmet",count:1}}
 execute if score craft_timer forge matches 199 if score diamond_chestplate forge matches 1 as @e[tag=fc_chestplate_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_chestplate",count:1}}
 execute if score craft_timer forge matches 199 if score diamond_leggings forge matches 1 as @e[tag=fc_leggings_mold] at @s positioned ~ ~5 ~ run summon item ~ ~ ~ {Item:{id:"minecraft:diamond_leggings",count:1}}
