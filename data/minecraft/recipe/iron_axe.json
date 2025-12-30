@@ -12,7 +12,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:diamond_axe",
+    "id": "minecraft:iron_axe",
     "components": {
       "minecraft:attribute_modifiers": [
         {
