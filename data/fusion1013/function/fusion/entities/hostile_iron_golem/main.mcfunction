@@ -1,1 +1,1 @@
-execute as @e[tag=hostile,type=iron_golem] at @s run data modify entity @s AngryAt set from entity @p UUID
+execute as @e[tag=hostile,type=iron_golem] at @s run data modify entity @s AngryAt set from entity @p[distance=..16] UUID
