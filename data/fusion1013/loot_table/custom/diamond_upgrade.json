@@ -15,7 +15,7 @@
                 "minecraft:custom_name": "Forge Dust",
                 "minecraft:custom_data": {
                   "PublicBukkitValues": {
-                    "cobaltcore:forge_dust": 1
+                    "cobaltcore:forgedust": 1
                   }
                 }
               }
