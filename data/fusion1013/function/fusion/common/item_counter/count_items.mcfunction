@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ hopper run function fusion1013:fusion/common/item_counter/count_items_hopper

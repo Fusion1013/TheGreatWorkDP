@@ -1,0 +1,1 @@
+execute at @e[tag=item_counter] run function fusion1013:fusion/common/item_counter/count_items
