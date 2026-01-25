@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#I#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "I": "minecraft:item_frame"
+    },
+    "result": {
+        "id": "minecraft:item_frame",
+        "count": 1,
+        "components":
+        {"minecraft:enchantment_glint_override":true,
+        "minecraft:lore":["Invisible"],
+        "minecraft:entity_data":{"id":"item_frame",
+        "Tags":["invisibleitemframes.frame"],"Invisible":true},
+        "minecraft:custom_data":{"invisibleitemframes":true}
+        }
+    }
+}
