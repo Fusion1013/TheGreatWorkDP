@@ -33,7 +33,7 @@ execute if score first_matter_craft primordial_forge matches 204 run function fu
 execute as @e[tag=material_pit_display,tag=p_forge] if score first_matter_craft primordial_forge matches 216 run kill @s
 
 execute if score first_matter_craft primordial_forge matches 214 at @e[tag=p_forge_center] run summon lightning_bolt
-execute if score first_matter_craft primordial_forge matches 214 at @e[tag=p_forge_center] run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score first_matter_craft primordial_forge matches 214 at @e[tag=p_forge_center] run particle flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1
 execute if score first_matter_craft primordial_forge matches 214 at @e[tag=p_forge_center] run particle end_rod ~ ~ ~ 0 0 0 1 100
 execute if score first_matter_craft primordial_forge matches 216 at @e[tag=p_forge_center] run summon marker ~ ~ ~ {Tags:["first_matter_center"]}
 execute if score first_matter_craft primordial_forge matches 216 at @e[tag=p_forge_center] run function fusion1013:fusion/primordial_forge/first_matter/summon_first_matter

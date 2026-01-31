@@ -66,8 +66,3 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,compon
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"cobaltcore:serenith":1}}}}}] run function fusion1013:fusion/util/important_item
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"cobaltcore:umbryss":1}}}}}] run function fusion1013:fusion/util/important_item
 
-
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"thegreatwork:sword/bone_sword_green"}}}] run function fusion1013:fusion/floating_sword/apply_debuff_sword_held
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"thegreatwork:sword/bone_sword_red"}}}] run function fusion1013:fusion/floating_sword/apply_debuff_sword_held
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"thegreatwork:sword/bone_sword_blue"}}}] run function fusion1013:fusion/floating_sword/apply_debuff_sword_held
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"thegreatwork:sword/bone_sword_black"}}}] run function fusion1013:fusion/floating_sword/apply_debuff_sword_held

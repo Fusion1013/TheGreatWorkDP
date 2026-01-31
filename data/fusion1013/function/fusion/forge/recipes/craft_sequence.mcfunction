@@ -21,16 +21,16 @@ execute if score craft_timer forge matches 150 as @e[tag=fc_blade_mold] at @s as
 
 
 ## Middle flashes
-execute if score craft_timer forge matches 25 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 25 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1
 execute if score craft_timer forge matches 25 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 .8 40
 execute if score craft_timer forge matches 25 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
-execute if score craft_timer forge matches 75 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 75 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1
 execute if score craft_timer forge matches 75 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 .8 40
 execute if score craft_timer forge matches 75 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
-execute if score craft_timer forge matches 125 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 125 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1
 execute if score craft_timer forge matches 125 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 .8 40
 execute if score craft_timer forge matches 125 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
-execute if score craft_timer forge matches 175 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash ~ ~ ~ 0 0 0 0 1
+execute if score craft_timer forge matches 175 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1
 execute if score craft_timer forge matches 175 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run particle end_rod ~ ~ ~ 0 0 0 .8 40
 execute if score craft_timer forge matches 175 as @e[tag=fc_blade_mold] at @s positioned ~ ~5 ~ run playsound entity.illusioner.prepare_blindness player @a ~ ~ ~
 

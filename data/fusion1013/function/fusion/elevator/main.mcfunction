@@ -6,4 +6,4 @@ execute as @a[scores={elevator=40..}] at @s if entity @e[tag=elevator,distance=.
 
 execute as @e[tag=elevator] at @s run particle effect ~ ~ ~ .2 .2 .2 0 1
 
-execute at @e[tag=elevator] run cparticle display spiral minecraft:effect 1 6 1 0.001 2
+execute at @e[tag=elevator] run cparticle display spiral minecraft:entity_effect{color:[1,1,1,1]} 1 6 1 0.001 2
