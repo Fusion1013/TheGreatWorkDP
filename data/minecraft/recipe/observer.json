@@ -1,0 +1,20 @@
+{
+    
+}{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:cobblestone",
+    "Q": "minecraft:amethyst_shard",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:observer"
+  }
+}
