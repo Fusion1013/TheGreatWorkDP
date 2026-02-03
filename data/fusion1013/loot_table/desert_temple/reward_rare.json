@@ -17,30 +17,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_mutton",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:blaze_powder",
-          "weight": 30,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
+                "min": 4,
+                "max": 18
               }
             }
           ]
