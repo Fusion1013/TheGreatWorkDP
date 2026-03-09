@@ -1,0 +1,23 @@
+{
+  "parent": "fusion1013:potions/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "DESCRIPTION",
+    "hidden": true,
+    "announce_to_chat": false,
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:slow_falling"
+        }
+      }
+    },
+    "title": "Potion of Slow Falling"
+  },
+  "sends_telemetry_event": true
+}

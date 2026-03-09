@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        [ "minecraft:glass_bottle" ], [ "minecraft:slime_ball" ], [ "glow_ink_sac" ]
+    ],
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "thegreatwork:material/binding_light",
+            "minecraft:item_name": "Light Binding Reagent",
+            "minecraft:custom_data": {
+                "PublicBukkitValues": {
+                    "cobaltcore:binding_light": 1
+                }
+            }
+        }
+    }
+}

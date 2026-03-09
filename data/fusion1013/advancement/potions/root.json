@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/oxidized_copper",
+    "description": "Your progress in creating potions through alchemy",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "show_toast": false,
+    "title": "Alchemy - Potions"
+  },
+  "sends_telemetry_event": true
+}
