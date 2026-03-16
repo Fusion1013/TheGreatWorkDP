@@ -1,0 +1,18 @@
+{
+  "parent": "fusion1013:alchemy/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Discover the ancient art of rituals",
+    "hidden": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "minecraft:light_blue_candle"
+    },
+    "title": "Rituals"
+  },
+  "sends_telemetry_event": true
+}

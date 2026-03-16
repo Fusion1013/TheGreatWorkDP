@@ -1,0 +1,23 @@
+{
+  "parent": "fusion1013:alchemy/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Discover the ancient art of potion-making",
+    "hidden": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 15782440
+        }
+      }
+    },
+    "title": "Potions"
+  },
+  "sends_telemetry_event": true
+}

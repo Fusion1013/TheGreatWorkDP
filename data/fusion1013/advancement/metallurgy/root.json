@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:block/netherite_block",
+    "description": "Discover how to operate the Foundry",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": "Metallurgy",
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

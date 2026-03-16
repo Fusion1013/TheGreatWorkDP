@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "thegreatwork:gui/advancements/backgrounds/alchemy",
+    "description": "Discover the ancient arts of alchemy",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cauldron"
+    },
+    "show_toast": true,
+    "title": "Alchemy",
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

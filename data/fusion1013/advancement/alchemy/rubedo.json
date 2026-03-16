@@ -1,0 +1,22 @@
+{
+  "parent": "fusion1013:alchemy/citrinitas",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Complete the final step of the Great Work",
+    "hidden": true,
+    "announce_to_chat": true,
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:item_model": "thegreatwork:first_matter"
+      }
+    },
+    "title": "Rubedo",
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}
