@@ -1,0 +1,18 @@
+{
+  "parent": "fusion1013:metallurgy/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Forge a diamond spear",
+    "hidden": false,
+    "announce_to_chat": false,
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": "Diamond Spear"
+  },
+  "sends_telemetry_event": true
+}

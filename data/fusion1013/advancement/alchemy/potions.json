@@ -6,7 +6,7 @@
     }
   },
   "display": {
-    "description": "Discover the ancient art of potion-making",
+    "description": "Discover how to make potions",
     "hidden": true,
     "announce_to_chat": true,
     "icon": {

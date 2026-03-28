@@ -6,7 +6,7 @@
     }
   },
   "display": {
-    "description": "Discover the ancient art of transmutation",
+    "description": "Discover how to perform transmutation",
     "hidden": true,
     "announce_to_chat": true,
     "icon": {
