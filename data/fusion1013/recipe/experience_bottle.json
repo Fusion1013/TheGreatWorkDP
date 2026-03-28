@@ -7,10 +7,10 @@
     ],
     "key": {
         "#": "minecraft:glass_bottle",
-        "B": "minecraft:experience_bottle"
+        "B": "minecraft:emerald"
     },
     "result": {
-        "id": "minecraft:writable_book",
+        "id": "minecraft:experience_bottle",
         "count": 16
     }
 }
