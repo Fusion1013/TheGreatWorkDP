@@ -1,0 +1,33 @@
+{
+  "description": "Sapping",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 100
+  },
+  "max_cost": {
+    "base": 10000,
+    "per_level_above_first": 100
+  },
+  "anvil_cost": 0,
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "damage_type": "minecraft:generic",
+          "min_damage": -2,
+          "max_damage": -2
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

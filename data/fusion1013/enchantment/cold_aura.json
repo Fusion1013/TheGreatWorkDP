@@ -1,0 +1,19 @@
+{
+  "description": "Cold Aura",
+  "primary_items": "#minecraft:enchantable/leg_armor",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 100
+  },
+  "max_cost": {
+    "base": 10000,
+    "per_level_above_first": 100
+  },
+  "anvil_cost": 0
+}
