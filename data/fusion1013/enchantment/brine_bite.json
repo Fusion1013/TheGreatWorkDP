@@ -1,0 +1,51 @@
+{
+  "description": "Brine Bite",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 100
+  },
+  "max_cost": {
+    "base": 10000,
+    "per_level_above_first": 100
+  },
+  "anvil_cost": 0,
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:poison",
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 8,
+            "per_level_above_first": 2
+          },
+          "max_duration": {
+            "type": "minecraft:linear",
+            "base": 8,
+            "per_level_above_first": 2
+          },
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

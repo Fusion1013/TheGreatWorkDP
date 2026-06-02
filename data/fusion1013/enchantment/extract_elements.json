@@ -1,0 +1,19 @@
+{
+  "description": "Extract Elements",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 100
+  },
+  "max_cost": {
+    "base": 10000,
+    "per_level_above_first": 100
+  },
+  "anvil_cost": 0
+}
